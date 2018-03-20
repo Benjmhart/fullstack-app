@@ -8,9 +8,7 @@ module.exports = (app) => {
 
     app.get("/auth/google/callback", passport.authenticate("google"));
     app.get("/api/current_user", (req, res) => {
-        console.log('attempting to send response')
-        console.log(req.user)
-        res.send("you got me")
+        res.send(req.user)
         
     })
 }
