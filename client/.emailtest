@@ -1,0 +1,3 @@
+const survey = { title: 'title', subject:'subjecty', recipients:'benjmhart@gmail.com', body: 'do you like the thing?' }
+
+axios.post('/api/surveys, survey)
