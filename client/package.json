@@ -12,7 +12,9 @@
     }
   },
   "dependencies": {
+    "ajv": "^6.3.0",
     "axios": "^0.18.0",
+    "cli-engine-command": "^9.0.7",
     "heroku-cli": "^6.15.36",
     "materialize-css": "^0.100.2",
     "react": "^16.2.0",
